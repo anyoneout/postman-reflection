@@ -11,6 +11,7 @@
   * Request was successful and returned a code 200
   * Returned characteristics such as: abilities, base experience, height
   
+
   ### Pidgey
 
   ![pokPidgey get](pokPidgey.jpg)
@@ -41,7 +42,23 @@
 
 Postman query parameters are specific to the API with strong adherence to syntax.
 
-## Day 4 - Interacting with GitHub's API
+## Day 3 API Collections (Optional)
+
+Tehran, Iran
+![APICollections get](tehranGet.jpg)
+
+Chiang Mai, Thailand
+![APICollections get](chiangMaiGet.jpg)
+
+Florence, Italy
+![APICollections get](florenceGet.jpg)
+
+A variable was created in the Weather API collection which was used as the key in all three calls. A second variable was created and used for the base url. Variable creation helps minimize redundant time-consuming inputting of static or rarely altered information. All gets were successful and returned pertinent weather data. 
+
+
+
+
+## Day 4 - Interacting with GitHub repositories
 
 ### Get Repositories List
 
@@ -66,7 +83,7 @@ Postman query parameters are specific to the API with strong adherence to syntax
 
   ![GitHub API new repo post](createRepo.jpg)
 
-  ## Day 5 - Thunder Client
+  ## Day 5 - Thunder Client (optional)
 
   * Thunder Client seems to have streamlined POSTMAN for VSCode users. Authorization is automatically inherited from the parent collection and JSON is the default setting when inputting parameters. Also, it seems to be faster than POSTMAN.
 
