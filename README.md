@@ -1,6 +1,6 @@
 # postman-reflection
 
-## 1 - Introduction to APIs
+## Day 1 - Introduction to APIs
 
 ### Squirtle
 
@@ -30,7 +30,7 @@
   * Returned characteristics such as: abilities, base experience, height
 
 
-## 2 - Exploring the Weather API
+## Day 2 - Exploring the Weather API
 
   * URL = https://api.weatherbit.io/v2.0/current/?city=New+Orleans&key={{APIVar}}
   * Parameters: City and Authorization key
@@ -41,7 +41,7 @@
 
 Postman query parameters are specific to the API with strong adherence to syntax.
 
-## 3 - Interacting with GitHub's API
+## Day 4 - Interacting with GitHub's API
 
 ### Get Repositories List
 
@@ -65,3 +65,11 @@ Postman query parameters are specific to the API with strong adherence to syntax
   * Click Send
 
   ![GitHub API new repo post](createRepo.jpg)
+
+  ## Day 5 - Thunder Client
+
+  * Thunder Client seems to have streamlined POSTMAN for VSCode users. Authorization is automatically inherited from the parent collection and JSON is the default setting when inputting parameters. Also, it seems to be faster than POSTMAN.
+
+  ![Thunder Client repo list get](thunderGet.jpg)
+
+  ![Thunder Client new repo post](thunderPost.jpg)
