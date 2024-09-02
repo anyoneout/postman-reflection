@@ -1,6 +1,6 @@
 # postman-reflection
 
-## Day 1 - Pokemon gets
+## 1 - Introduction to APIs
 
 ### Squirtle
 
@@ -30,7 +30,7 @@
   * Returned characteristics such as: abilities, base experience, height
 
 
-## Day 2 - Weather API
+## 2 - Exploring the Weather API
 
   * URL = https://api.weatherbit.io/v2.0/current/?city=New+Orleans&key={{APIVar}}
   * Parameters: City and Authorization key
@@ -40,3 +40,28 @@
     
 
 Postman query parameters are specific to the API with strong adherence to syntax.
+
+## 3 - Interacting with GitHub's API
+
+### Get Repositories List
+
+  * Create a new request
+  * Select GET
+  * Add URL ("https://api.github.com/user/repos")
+  * No parameters necessary
+  * Click Send
+
+  ![GitHub API repo list get](getRepos.jpg)
+
+  ### Create Repo
+
+  * Create a new request
+  * select POST
+  * Add URL ("https://api.github.com/user/repos")
+  * Select "Body" from options
+  * Select "raw" from radio button options
+  * Select JSON from dropdown menu
+  * Add {"name":"anytexthere"} to initialize new repo
+  * Click Send
+
+  ![GitHub API new repo post](createRepo.jpg)
